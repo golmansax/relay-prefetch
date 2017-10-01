@@ -1,0 +1,45 @@
+{
+  "name": "relay-prefetch",
+  "version": "0.1.0",
+  "description": "Prefetch Relay queries",
+  "main": "index.js",
+  "scripts": {
+    "test": "karma start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/golmansax/relay-prefetch.git"
+  },
+  "keywords": [
+    "relay",
+    "react",
+    "prefetch"
+  ],
+  "author": {
+    "name": "Holman Gao",
+    "email": "holman@golmansax.com",
+    "url": "https://golmansax.com"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/golmansax/relay-prefetch/issues"
+  },
+  "homepage": "https://github.com/golmansax/relay-prefetch#readme",
+  "peerDependencies": {
+    "react": "^15.0.0",
+    "react-relay": "^0.10.0"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "karma": "^1.7.1",
+    "karma-chai-plugins": "^0.9.0",
+    "karma-chrome-launcher": "^2.2.0",
+    "karma-mocha": "^1.3.0",
+    "karma-sourcemap-loader": "^0.3.7",
+    "karma-webpack": "^2.0.4",
+    "mocha": "^3.5.3",
+    "react-dom": "^15.0.0",
+    "webpack": "^3.6.0"
+  }
+}
