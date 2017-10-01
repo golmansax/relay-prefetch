@@ -4,7 +4,7 @@
   "description": "Prefetch Relay queries",
   "main": "index.js",
   "scripts": {
-    "test": "karma start"
+    "test": "karma start test/karma.conf.js"
   },
   "repository": {
     "type": "git",
@@ -27,6 +27,7 @@
   "homepage": "https://github.com/golmansax/relay-prefetch#readme",
   "peerDependencies": {
     "react": "^15.0.0",
+    "react-dom": "^15.0.0",
     "react-relay": "^0.10.0"
   },
   "devDependencies": {
@@ -39,7 +40,6 @@
     "karma-sourcemap-loader": "^0.3.7",
     "karma-webpack": "^2.0.4",
     "mocha": "^3.5.3",
-    "react-dom": "^15.0.0",
     "webpack": "^3.6.0"
   }
 }

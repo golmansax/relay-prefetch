@@ -1,8 +1,9 @@
 const Relay = require('react-relay');
 const React = require('react');
+const ReactDOM = require('react-dom');
 
 module.exports = function relayPrefetch({ Component, route }) {
-  render(
+  ReactDOM.render(
     React.createElement(
       Relay.RootContainer,
       {

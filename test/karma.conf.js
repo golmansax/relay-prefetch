@@ -1,13 +1,15 @@
 module.exports = function(config) {
   config.set({
+    basePath: '..',
     browsers: ['Chrome'],
     frameworks: ['chai', 'mocha'],
-    files: ['*test.js'],
+    files: ['test/*test.js'],
     preprocessors: {
-      '*test.js': ['webpack', 'sourcemap'],
+      'test/*test.js': ['webpack', 'sourcemap'],
     },
     singleRun: true,
     webpack: {
+      devtool: 'inline-source-map',
       module: {
         rules: [
           {

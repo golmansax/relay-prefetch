@@ -1,6 +1,6 @@
 const { expect } = require('chai');
 const Relay = require('react-relay');
-const relayPrefetch = require('./');
+const relayPrefetch = require('../');
 
 const MyComponent = () => null;
 const MyContainer = Relay.createContainer(MyComponent, {
