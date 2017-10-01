@@ -1,0 +1,8 @@
+type Starship {
+  id: ID!
+  name: String!
+}
+
+type Query {
+  starship(id: ID!): Starship
+}
