@@ -4,7 +4,7 @@
   "description": "Prefetch Relay queries",
   "main": "index.js",
   "scripts": {
-    "prepare": "install-self-peers -- --ignore-scripts",
+    "prepare": "./scripts/npm_prepare.sh",
     "test": "karma start test/karma.conf.js"
   },
   "repository": {
