@@ -2,7 +2,7 @@ require('isomorphic-fetch');
 const fetchMock = require('fetch-mock');
 const { expect } = require('chai');
 const Relay = require('react-relay');
-const relayPrefetch = require('../');
+const relayPrefetch = require('../dist/');
 
 const MyComponent = () => null;
 const MyContainer = Relay.createContainer(MyComponent, {

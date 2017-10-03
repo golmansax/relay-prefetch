@@ -1,4 +1,5 @@
 {
+  "presets": ["env"],
   "plugins": [
     ["relay", {
       "schema": "test/schema.graphql"

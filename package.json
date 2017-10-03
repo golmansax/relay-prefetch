@@ -2,8 +2,9 @@
   "name": "relay-prefetch",
   "version": "0.1.0",
   "description": "Prefetch Relay queries",
-  "main": "index.js",
+  "main": "dist/index.js",
   "scripts": {
+    "build": "babel src/index.js --out-file dist/index.js",
     "prepare": "./scripts/npm_prepare.sh",
     "test": "karma start test/karma.conf.js"
   },
@@ -33,9 +34,11 @@
   },
   "devDependencies": {
     "@team-griffin/install-self-peers": "^1.1.1",
+    "babel-cli": "^6.26.0",
     "babel-core": "^6.26.0",
     "babel-loader": "^7.1.2",
     "babel-plugin-relay": "^1.3.0",
+    "babel-preset-env": "^1.6.0",
     "fetch-mock": "^5.12.2",
     "isomorphic-fetch": "^2.2.1",
     "karma": "^1.7.1",
@@ -46,5 +49,6 @@
     "karma-webpack": "^2.0.4",
     "mocha": "^3.5.3",
     "webpack": "^3.6.0"
-  }
+  },
+  "dependencies": {}
 }
