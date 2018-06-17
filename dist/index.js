@@ -1,6 +1,6 @@
 'use strict';
 
-var Relay = require('react-relay');
+var Relay = require('react-relay/classic');
 var React = require('react');
 var ReactDOM = require('react-dom');
 

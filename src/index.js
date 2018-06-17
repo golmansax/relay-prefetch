@@ -1,4 +1,4 @@
-const Relay = require('react-relay');
+const Relay = require('react-relay/classic');
 const React = require('react');
 const ReactDOM = require('react-dom');
 

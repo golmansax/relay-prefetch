@@ -7,7 +7,6 @@ module.exports = function(config) {
     preprocessors: {
       'test/*test.js': ['webpack', 'sourcemap'],
     },
-    singleRun: true,
     webpack: {
       devtool: 'inline-source-map',
       module: {

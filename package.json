@@ -6,7 +6,8 @@
   "scripts": {
     "build": "babel src/index.js --out-file dist/index.js",
     "prepare": "./scripts/npm_prepare.sh",
-    "test": "karma start test/karma.conf.js"
+    "test": "karma start test/karma.conf.js --single-run",
+    "test:watch": "karma start test/karma.conf.js"
   },
   "repository": {
     "type": "git",
@@ -28,9 +29,9 @@
   },
   "homepage": "https://github.com/golmansax/relay-prefetch#readme",
   "peerDependencies": {
-    "react": "^15.0.0",
-    "react-dom": "^15.0.0",
-    "react-relay": "^0.10.0"
+    "react": ">= 15.0.0",
+    "react-dom": ">= 15.0.0",
+    "react-relay": "^1.0.0"
   },
   "devDependencies": {
     "@team-griffin/install-self-peers": "^1.1.1",
